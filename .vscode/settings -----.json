@@ -1,0 +1,45 @@
+{
+    // uncomment entries once all libraries have been installed via 'npm install'
+    // Configurações do ESLint (principal foco da correção)
+    "eslint.enable": true,
+    "eslint.run": "onType",
+    "eslint.lintTask.enable": true,
+    "eslint.debug": true,
+    "eslint.format.enable": true,
+    "eslint.trace.server": "verbose",
+    // "eslint.workingDirectories": [
+    //     "./"
+    // ],
+    "eslint.experimental.useFlatConfig": true,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "vue",
+        "html"
+    ],
+    "eslint.workingDirectories": [
+        {
+            "mode": "auto"
+        }
+    ],
+    "eslint.probe": [
+        "astro",
+        "civet",
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "html",
+        "mdx",
+        "vue",
+        "markdown",
+        "json",
+        "jsonc",
+        ".ts"
+    ],
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "always"
+    },
+}

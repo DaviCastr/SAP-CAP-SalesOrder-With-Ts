@@ -1,0 +1,49 @@
+@server=http://localhost:4004
+@username=alice
+@password=
+
+
+### Customers
+# @name Customers_GET
+GET {{server}}/sales/Customers
+Authorization: Basic {{username}} {{password}}
+
+
+### Customers
+# @name Customers_POST
+POST {{server}}/sales/Customers
+Content-Type: application/json
+Authorization: Basic {{username}} {{password}}
+
+{
+  "id": "8620096a-6fa5-44b4-807e-9e856d5fc561",
+  "firstName": "firstName-8620096",
+  "lastName": "lastName-8620096",
+  "price": 21509344.13
+}
+
+
+### Customers
+# @name Customers_PATCH
+PATCH {{server}}/sales/Customers/8620096a-6fa5-44b4-807e-9e856d5fc561
+Content-Type: application/json
+Authorization: Basic {{username}} {{password}}
+
+{
+  "id": "8620096a-6fa5-44b4-807e-9e856d5fc561",
+  "firstName": "firstName-8620096",
+  "lastName": "lastName-8620096",
+  "price": 21509344.13
+}
+
+
+### Customers
+# @name Customers_DELETE
+DELETE {{server}}/sales/Customers/8620096a-6fa5-44b4-807e-9e856d5fc561
+Content-Type: application/json
+Authorization: Basic {{username}} {{password}}
+
+//Busca clientes com $filter nome
+### SalesOrderHeaders $filter
+# @name Customers_GET
+GET {{server}}/sales/Customers?$filter=not endswith(firstName, '60')

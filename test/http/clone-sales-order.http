@@ -1,0 +1,48 @@
+@server=http://localhost:4004
+@username=davi
+@password=123456
+
+
+### SalesOrderHeaders
+# @name SalesOrderHeaders_GET
+GET {{server}}/sales/SalesOrderHeaders
+Authorization: Basic {{username}} {{password}}
+
+
+### SalesOrderHeaders
+# @name SalesOrderHeaders_POST
+POST {{server}}/sales/SalesOrderHeaders(17749378-009b-4429-b6f2-b241c06c03c1)/cloneSalesOrder
+Content-Type: application/json
+Authorization: Basic {{username}} {{password}}
+
+{
+  "id": "5874923b-577d-40f8-8d95-e796052defea",
+  "totalAmount": 29312183.14,
+  "customer_id": "56934604-bdfe-4172-af1b-1776e0bc28b3",
+  "items": [
+    {
+      "id": "26476970-6f4e-47cb-ac35-5528f8379a8b",
+      "product_id": "23209169-7bb4-4da2-96e4-4cec7c7d0a8f",
+      "quantity": 51,
+      "price": 25703050.15,
+      "createdAt": "2017-03-07T02:00:00.000Z",
+      "createdBy": "createdBy.frhre@example.net",
+      "modifiedAt": "2008-08-02T02:00:00.000Z",
+      "modifiedBy": "modifiedBy.frhre@example.org"
+    },
+    {
+      "id": "26476971-da00-42b5-9ff4-5e44b0292b77",
+      "product_id": "23209168-be41-42e0-81e6-7e48e1f31404",
+      "quantity": 0,
+      "price": 4296455.15,
+      "createdAt": "2001-05-24T02:00:00.000Z",
+      "createdBy": "createdBy.frhrf@example.net",
+      "modifiedAt": "2019-04-11T02:00:00.000Z",
+      "modifiedBy": "modifiedBy.frhrf@example.com"
+    }
+  ],
+  "createdAt": "2010-01-24T02:00:00.000Z",
+  "createdBy": "createdBy.3hx4b@example.com",
+  "modifiedAt": "2019-04-05T02:00:00.000Z",
+  "modifiedBy": "modifiedBy.3hx4b@example.net"
+}

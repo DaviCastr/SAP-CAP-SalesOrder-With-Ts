@@ -1,0 +1,44 @@
+@server=http://localhost:4004
+@username=davi
+@password=123456
+
+### SalesOrderHeaders
+# @name SalesOrderHeaders_POST
+POST {{server}}/sales/bulkCreateSalesOrder
+Content-Type: application/json
+Authorization: Basic {{username}} {{password}}
+
+{
+    "payload": [
+        {
+            "id": "5874923b-577d-40f8-8d95-e796052defea",
+            "customer_id": "56934604-bdfe-4172-af1b-1776e0bc28b3",
+            "items": [
+                {
+                    "id": "26476970-6f4e-47cb-ac35-5528f8379a8b",
+                    "product_id": "23209169-7bb4-4da2-96e4-4cec7c7d0a8f",
+                    "quantity": 51,
+                    "price": 25703050.15
+                },
+                {
+                    "id": "26476971-da00-42b5-9ff4-5e44b0292b77",
+                    "product_id": "23209168-be41-42e0-81e6-7e48e1f31404",
+                    "quantity": 0,
+                    "price": 4296455.15
+                }
+            ]
+        },
+        {
+            "id": "5874923b-577d-40f8-8d95-e796052defen",
+            "customer_id": "56934604-bdfe-4172-af1b-1776e0bc28b3",
+            "items": [
+                {
+                    "id": "26476970-6f4e-47cb-ac35-5528f8379a81",
+                    "product_id": "23209169-7bb4-4da2-96e4-4cec7c7d0a8f",
+                    "quantity": 51,
+                    "price": 2.15
+                }
+            ]
+        }
+    ]
+}

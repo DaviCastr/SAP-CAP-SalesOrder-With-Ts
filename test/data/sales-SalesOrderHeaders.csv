@@ -1,0 +1,11 @@
+id,customer_id,status_id,totalAmount,createdAt,createdBy,modifiedAt,modifiedBy
+17749369-963f-4f74-95f0-45220bc430b1,56934604-bdfe-4172-af1b-1776e0bc28b3,REJECTED,31387226.65,2015-08-29T02:00:00.000Z,createdBy.akfi1@example.com,2013-10-17T02:00:00.000Z,modifiedBy.akfi1@example.net
+17749370-e2e3-40c5-88d5-9476cb5bbf2d,56934604-bdfe-4172-af1b-1776e0bc28b3,COMPLETED,12380919.12,2014-10-28T02:00:00.000Z,createdBy.akfi2@example.org,2019-06-16T02:00:00.000Z,modifiedBy.akfi2@example.net
+17749371-74c1-4335-a58b-cdb4e9641ed6,56934604-bdfe-4172-af1b-1776e0bc28b3,PENDING,7587050.25,2005-08-08T02:00:00.000Z,createdBy.akfi3@example.org,2021-04-06T02:00:00.000Z,modifiedBy.akfi3@example.net
+17749372-fab5-4a2d-a36f-0900e0d5bff5,56934604-bdfe-4172-af1b-1776e0bc28b3,PENDING,15027790.96,2009-08-16T02:00:00.000Z,createdBy.akfi4@example.net,2016-05-03T02:00:00.000Z,modifiedBy.akfi4@example.net
+17749373-05f0-4ec6-a116-ec40837b1e51,56934604-bdfe-4172-af1b-1776e0bc28b3,PENDING,11026595.31,2022-12-17T02:00:00.000Z,createdBy.akfi5@example.org,2020-10-04T02:00:00.000Z,modifiedBy.akfi5@example.net
+17749374-f8bc-49ab-9fd6-69eaa435cd4f,56934604-bdfe-4172-af1b-1776e0bc28b3,PENDING,9781459.23,2007-09-06T02:00:00.000Z,createdBy.akfi6@example.net,2012-07-07T02:00:00.000Z,modifiedBy.akfi6@example.com
+17749375-3dc6-4b3a-bf35-6ba8e08a3c8e,56934604-bdfe-4172-af1b-1776e0bc28b3,PENDING,22070563.39,2006-03-18T02:00:00.000Z,createdBy.akfi7@example.net,2008-01-03T02:00:00.000Z,modifiedBy.akfi7@example.com
+17749376-63e3-453d-90b7-d5bf78438be8,56934604-bdfe-4172-af1b-1776e0bc28b3,PENDING,24544074.24,2002-07-14T02:00:00.000Z,createdBy.akfi8@example.org,2004-03-03T02:00:00.000Z,modifiedBy.akfi8@example.org
+17749377-9897-49a3-aae2-6e87c2cf43e5,56934604-bdfe-4172-af1b-1776e0bc28b3,PENDING,11303494.13,2020-08-21T02:00:00.000Z,createdBy.akfi9@example.org,2012-10-22T02:00:00.000Z,modifiedBy.akfi9@example.net
+17749378-009b-4429-b6f2-b241c06c03c1,56934604-bdfe-4172-af1b-1776e0bc28b3,PENDING,3542755.16,2025-08-20T02:00:00.000Z,createdBy.akfia@example.net,2025-08-17T02:00:00.000Z,modifiedBy.akfia@example.net
